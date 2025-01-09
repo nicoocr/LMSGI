@@ -1,0 +1,18 @@
+div em{
+    color:red;
+}
+p em{
+    color:blue;
+}
+#sexto{
+    font-size: 2em;
+}
+p{
+    border:solid 1px black;
+    background-color: #DDD;
+    color:black;
+
+}
+p.amarillo{
+    background-color: yellow;
+}

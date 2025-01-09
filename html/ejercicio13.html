@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1>TELEBIRRIA</h1>
+    <h2>PARA REALIZAR SU PEDIDO, RELLENE EL FORMULARIO</h2>
+    
+    <form>
+        <fieldset style="width: 650px;">
+            <legend>Datos personales y de envío</legend>
+            <label for="fname">Nombre</label>
+            <input type="text"id="fname" name="fname"><br>
+
+            <label for="lname">Apellidos</label>
+            <input type="text" id="lname" name="lname"><br>
+
+            <label for="domicilio">Domicilio</label>
+            <input type="text" id="domicilio" name="domicilio"><br>
+
+            <label for="loc">Localidad</label>
+            <input type="text" id="loc" name="loc"><br>
+
+            <label for="codpos">Codigo postal</label>
+            <input type="number" id="codpos" name="codpos"><br>
+            
+            <label for="telef">Teléfono</label>
+            <input type="tel" id="domicilio" name="domicilio" maxlength="9"><br>
+        </fieldset>
+        <fieldset style="width: 650px;">
+
+            <legend>Elija la oppción de entrega</legend>
+            <input type="radio" id="envialocal" name="entrada">
+            <label for="selec">Recoger en el local</label><br>
+            <input type="radio" id="envidomici" name="entrada">
+            <label for="selec2">Enviar a domicilio</label><br>
+            
+        </fieldset>
+        <fieldset style="width: 650px;">
+
+            <legend>¿Quiere que le enviemos nuestras ofertas?</legend>
+            <input type="checkbox" id="envidomi" name="entrada1">
+            <label for="selec">Enviar al domicilio</label><br>
+            <input type="checkbox" id="enviemail" name="entrada1">
+            <label for="selec2">Enviar a email</label><br>
+            
+        </fieldset>
+        <fieldset style="width: 650px;">
+            <legend>Elija su menu</legend>
+            <label for="lista">Tamaño del bocadillo</label>
+            <select name="bocadillo" id="boca">
+            <option value="1">pequeño</option>
+            <option value="2">mediano</option>
+            <option value="3">grande</option>
+            <option value="4">enorme</option>
+            </select><br>
+
+            <label for="lista">Contenido del bocadillo</label>
+            <select name="bocadillo" id="boca">
+            <option value="1">anchoas</option>
+            <option value="2">calamares</option>
+            <option value="3">mejillones</option>
+            <option value="4">jamon</option>
+            </select>
+            <legend>Puede añadir alguna sugerencia</legend>
+            <textarea name="comentario" id="com" style="width: 500px; height: 100px;">Por ejemplo que caliente el pan, etc.</textarea>
+            
+        </fieldset><br>
+        <input type="submit" name="enviar" id="boton" value="Enviar datos">
+    </form>
+</body>
+</html>
