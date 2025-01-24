@@ -1,0 +1,25 @@
+#contenedor{
+    background-color:rgb(243, 243, 104);
+    padding: 4px;;
+}
+label{
+    color:rgb(241, 76, 241);
+}
+h1{
+
+    color:red;
+}
+legend{
+    color:rgb(104, 138, 54);
+}
+#boton{
+    background-color:rgb(104, 138, 54);
+    color:white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#MedD{
+    float:left;
+}
